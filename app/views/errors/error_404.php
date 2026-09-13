@@ -207,7 +207,7 @@ h1 {
   <div class="message"><?= html_escape($message) ?></div>
 
   <div class="actions">
-    <a class="btn btn-primary" href="/">Home</a>
+    <a class="btn btn-primary" href="<?= site_url('products'); ?>">Home</a>
     <a class="btn btn-secondary" href="javascript:history.back()">← Go Back</a>
   </div>
 
